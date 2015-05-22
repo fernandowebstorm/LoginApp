@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:600);
+
+body {
+    height:100%;
+    width:100%;
+    margin: 0;
+}
+
+header#header {
+    background-color: rgb(47, 96, 161);
+    border-bottom: 1px solid #000000;
+    transform: translateX(0);
+    transition: all .25s linear;
+}
+
+header#header img#icon {
+    margin: 5px;
+    vertical-align: middle;
+}
+
+header#header h1 {
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Exo', sans-serif;
+    font-size: 11pt;
+    padding: 0;
+}
+
+.menu-anchor {
+    width: 40px;
+    height: 32px;
+    float: right;
+    position: relative;
+    text-indent: -9999px;
+    overflow: hidden;
+    cursor: pointer;
+    background: rgb(47, 96, 161);
+    margin: 7px auto;
+}
+
+.menu-anchor:before {
+    content: "";
+    display: block;
+    margin: 7px auto;
+    width: 70%;
+    height: 0.25em;
+    background: #ffffff;
+    box-shadow: 0 .45em 0 0 #ffffff,
+                0 .9em 0 0 #ffffff;
+}
+
+menu {
+    display: none;
+    float: right;
+    position: relative;
+    margin-top: auto;
+    background: #282828;
+    box-shadow: inset -5px -10px 10px 0 rgba(0,0,0,.3);
+    padding: 0;
+}
+
+menu ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+menu li a {
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+}
+
+section#section-body {
+    background-color: #dddddd;
+}
+
+section#section-body img#img-body {
+    display: block;
+    margin: auto auto;
+    padding: 20px 20px 50px 20px;
+}
+
+table#table-login {
+    width: 90%;
+    margin: auto auto;
+}
+
+table#table-login td {
+    padding-bottom: 10px;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    text-indent: 10px;
+}
+
+table#table-login button {
+    display: block;
+    margin: auto auto;
+    font-family: 'Exo', sans-serif;
+    font-size: 12pt;
+    padding: 8px;
+}
+
+footer#footer {
+    clear: both;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-size: 8pt;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
